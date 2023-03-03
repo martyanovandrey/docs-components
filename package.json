@@ -50,7 +50,6 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
-    "@gravity-ui/uikit": "^3.3.0",
     "@popperjs/core": "^2.11.2",
     "bem-cn-lite": "4.1.0",
     "i18next": "^19.9.2",
@@ -65,7 +64,8 @@
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "@doc-tools/transform": "^2.0.0"
+    "@doc-tools/transform": "^2.0.0",
+    "@gravity-ui/uikit": "^4.0.4"
   },
   "devDependencies": {
     "@babel/core": "7.17.5",
